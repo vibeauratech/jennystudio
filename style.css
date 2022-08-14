@@ -1,0 +1,393 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;    
+    text-decoration: none;
+    box-sizing: border-box;
+      
+}  
+
+.hero{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; 
+    background: url(sean-pollock-PhYq704ffdA-unsplash.jpg) no-repeat center;
+    background-size: cover;     
+}
+
+
+
+.hero-con{
+    width: 100%;
+    display: flex;
+    margin-left: 10%;
+}
+.hero-con .hero-left{
+    flex-basis: 60%;
+    color: #fff;
+}
+.left-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75));
+    color: #fff;
+    padding: 13px 0;
+    margin-bottom: 20%;
+}
+
+.left-nav .logo{
+    margin-right: 10%;
+    font-size: 24px;
+    border-bottom: 2px solid rgb(5, 165, 98);
+}
+
+.nav-links{
+    margin-left: -25%;
+    margin-right: 10%;
+}
+.nav-links ul {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -25%;
+}
+
+.left-nav ul li{
+    list-style: none;
+    font-size: 14px;
+}
+
+.left-nav ul li a{
+    color: #fff;
+}
+
+.hero-con .hero-left .heroleft-text{
+    display: flex;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+}
+.hero-con .hero-left .ris{
+    margin-top: 5%;
+}
+
+.hero-con .hero-left .heroleft-text .real{
+    flex-basis: 50%;
+}
+
+.hero-con .hero-left .heroleft-text .real h2{
+    font-size: 36px;
+    font-weight: 200;
+}
+.hero-con .hero-left .heroleft-text .real p{
+   margin-top: 4%;
+   margin-bottom: 5%;
+}
+
+.hero-con .hero-left .heroleft-text .culture-left{
+    flex-basis: 35%;
+    display: flex;
+    align-items: center;
+}
+.hero-con .hero-left .heroleft-text .culture-left p{
+    margin-right: 40%;
+    border-bottom: 2px solid #ccc;
+}
+.hero-con .hero-left .heroleft-text .culture-left .number{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: -10%;
+}
+.hero-con .hero-left .heroleft-text .icon-left{
+    flex-basis: 15%;
+    display: flex;
+    height: 80%;
+    padding: 20px;margin-top: 7%;
+
+    background: #fff;
+    align-items: center;
+}
+
+.hero-con .hero-left .heroleft-text .icon-left i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-left: 5%;
+    line-height: 40px;
+    font-size: 14px;
+    color:  #000;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+
+
+
+.hero-con .hero-right{
+    position: relative;
+    flex-basis: 40%;
+    z-index: 99;
+    background: url(marios-gkortsilas-OAePEg3V93A-unsplash.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.hero-con .hero-right .right-overlay{
+    width: 100%;
+    color: #fff;
+    background: linear-gradient(rgba(56, 56, 56, 0.75),rgba(56, 56, 56, 0.75));
+}
+
+
+.right-nav{
+    display: flex;
+    margin-bottom: 45%;
+    color: #fff;
+}
+
+.heroright-text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 45%;
+    margin-left: 5%;
+    color: #fff;
+}
+.heroright-text i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 14px;
+    color:  #fff;
+    border: 2px solid #ccc;
+    background: transparent;
+    cursor: pointer;
+}
+
+.heroright-text .culture{
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+.heroright-text .culture p{
+    margin-right: 100%;
+    border-bottom: 2px solid #ccc;
+}
+.heroright-text .culture .number{
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: -27%;
+}
+
+.search i{
+    width: 110px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+    color:  #fff;
+    background: #03113F;
+    cursor: pointer;
+    opacity: 0;
+
+}
+.right-nav p{
+    margin-right: 5%;
+    font-size: 14px;
+    padding: 20px 25px;
+    font-weight: 800;
+    border-bottom: 1px solid #ccc;
+}
+.green{
+    background: rgb(5, 165, 98);
+}
+
+
+@media screen and (max-width: 768px){
+    .hero{
+        display: none;
+        flex-direction: column;
+        text-align: left;    
+    }
+} 
+
+
+
+
+.recent{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.page{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.recent-left{
+    font-weight: 500;
+    color: rgb(5, 165, 98);
+    margin-left:-35%;
+    padding-right: 25%;
+    border-right: 2px solid #ccc;
+}
+
+.exclusive-con{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.exclusive{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    background: rgb(209, 209, 209);
+}
+
+.exclusive-grid{
+    background: #fff;
+}
+
+.exclusive img{
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+.exclusive div{
+    position: relative;
+}
+
+.exclusive span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+}
+
+.gee{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10%;
+}
+
+
+@media only screen and (max-width:900px){
+    .exclusive{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .exclusive-grid{
+        margin-bottom: 15%;    
+    }
+}
+
+.props{
+    margin-top: -10%;
+    margin-bottom: 5%;
+    padding-top: 10%;
+    background: rgb(209, 209, 209);
+}
+
+.props-con{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.props p{
+    opacity: 0;
+}
+
+.props h2{
+    font-size: 18px;
+    background: #03113F;
+    color: #fff;
+    padding: 15px 25px;
+}
+
+.about-section{
+    background: #ccc;
+}
+.reason{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background: gainsboro;
+    justify-content: space-between;
+}
+.reason-image{
+    flex-basis: 65%;
+}
+.reason-image img{
+    width: 100%;
+}
+
+.reason-text{
+    flex-basis: 35%;
+    background: #fff;
+}
+
+.reason-con{
+    display: flex;
+    margin-bottom: 5%;
+}
+.reason-con h2{
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-bottom: 25px;
+    color: rgb(5, 165, 98);
+    border-bottom: 2px solid #ccc;
+
+}
+
+.about h3{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    background: #03113F;
+    margin-top: -18px;
+    padding: 20px 0;
+}
+
+
+
+@media only screen and (max-width:768px){
+    .reason{
+        flex-direction: column;
+    }
+
+    .reason-image{
+        flex-basis: 100%;
+    }
+    
+    .reason-text{
+        flex-basis: 100%;
+    }
+
+    .reason-con{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reason-con h2{
+        margin: 0;
+    }
+
+    .reason-con p{
+       font-size: 14px;
+    }
+}
