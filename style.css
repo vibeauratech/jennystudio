@@ -67,6 +67,7 @@
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
 }
+
 .hero-con .hero-left .ris{
     margin-top: 5%;
 }
@@ -213,6 +214,16 @@
         flex-direction: column;
         margin-left: 0;  
     }
+    .hero-left{
+        flex-basis: 100%;
+        padding: 20px;
+    }
+    .hero-right{
+        flex-basis: 100%;
+    }
+    .left-nav{       
+        margin-bottom: 15%;
+    }
 
     .nav-links{
         display: none;
@@ -228,8 +239,10 @@
     }
     .hero-con .hero-left .heroleft-text .icon-left{
         background: transparent;
-        align-items: center;
+        align-items: left;
+        display: none;
     }
+
     .hero-con .hero-left .heroleft-text .icon-left i{
         color:  #ccc;
         border: 2px solid #ccc;
