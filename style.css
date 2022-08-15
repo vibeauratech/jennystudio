@@ -571,6 +571,10 @@
         color: #fff;
         border-right: none;
     }
+    .flex-row h2{
+        margin-bottom: 5%;
+        font-size: 20px;
+     }
 }
 
 .special{
