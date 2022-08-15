@@ -204,12 +204,39 @@
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 1024px){
     .hero{
-        display: none;
         flex-direction: column;
         text-align: left;    
     }
+    .hero-con{
+        flex-direction: column;
+        margin-left: 0;  
+    }
+
+    .nav-links{
+        display: none;
+    }
+    .right-nav{
+        display: none;
+    }
+    .heroright-text{    
+        margin-bottom: 10%;       
+    }
+    .hero-con .hero-left .heroleft-text{
+        flex-direction: column;
+    }
+    .hero-con .hero-left .heroleft-text .icon-left{
+        background: transparent;
+        align-items: center;
+    }
+    .hero-con .hero-left .heroleft-text .icon-left i{
+        color:  #ccc;
+        border: 2px solid #ccc;
+        cursor: pointer;
+    }
+    
+
 } 
 
 
