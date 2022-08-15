@@ -326,26 +326,33 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-}
-
-.props p{
-    opacity: 0;
 }
 
 .props h2{
-    font-size: 18px;
+    opacity: 0;
+}
+
+.props p{
     background: #03113F;
     color: #fff;
-    padding: 15px 25px;
+    padding: 25px 45px;
 }
+
+.props i{
+    margin-left: 15px;
+    color: rgb(5, 165, 98);
+}
+
 @media only screen and (max-width:768px){
     .props-con{
         padding-bottom: 15%;
     }
-    .props h2{
+
+    .props p{
         font-size: 16px;
+        padding: 15px 40px;
     }
+   
 }
 
 
@@ -555,6 +562,11 @@
     padding: 35px 0;
 }
 
+.visit-link i{  
+    color: #fff;
+    margin-left: 15px;
+}
+
 @media only screen and (max-width:1024px){
     .row-con{
         flex-direction: column;  
@@ -728,5 +740,39 @@
     }
     .variance-flex h3{
         margin-left: 0;       
+    }
+}
+
+.more{
+    background: rgb(209, 209, 209);
+}
+.more-con{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.more-con h2{
+    opacity: 0;
+}
+.more-con p{
+    padding: 25px 64px;
+    background: #03113F;
+    color: #fff;
+}
+.more-con i{  
+    color: rgb(5, 165, 98);
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width:768px){
+    .more-con{
+        padding-top: 10%;
+        padding-bottom: 15%;
+    }
+    .more p{
+        font-size: 16px;
+        padding: 15px 40px;
     }
 }
