@@ -339,6 +339,14 @@
     color: #fff;
     padding: 15px 25px;
 }
+@media only screen and (max-width:768px){
+    .props-con{
+        padding-bottom: 15%;
+    }
+    .props h2{
+        font-size: 16px;
+    }
+}
 
 
 .common{
@@ -474,7 +482,7 @@
     color: #fff;
 }
 .square{
-    padding-right: 2%;
+    padding-right: 5%;
     text-align: right;
     border-right: 2px solid rgb(5, 165, 98);
 }
@@ -626,3 +634,93 @@
     }
 }
 
+.reasons{
+    background: rgb(209, 209, 209);
+}
+
+.reasons-con{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.reason-left{
+    flex: 75%;
+    background: url(aaron-huber-s95oB2n9jng-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+
+.reason-right{
+    flex: 25%;
+}
+.variant p{
+    margin-bottom: 30%;
+    color: transparent;
+}
+
+.variance-flex{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
+}
+
+.variance-flex h2{
+    padding-right: 120px;
+    background: rgb(209, 209, 209);
+    color: rgb(209, 209, 209);
+
+}
+.variance-flex h3{
+    text-align: right;
+    color: transparent;
+    margin-left: 300px;
+    margin-top: 5px;
+    border-top: 4px solid rgb(5, 165, 98);
+    
+}
+
+.variance-flex p{
+    width: 30%;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10%;
+}
+
+.reason-text{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0;
+}
+.reason-text h2{
+    margin-right: 12%;
+    padding-bottom: 41px;
+    color: rgb(5, 165, 98);
+    border-bottom: 2px solid #ccc;
+}
+
+@media only screen and (max-width:768px){
+    .reasons-con{
+      flex-direction: column-reverse;
+      padding-top: 15%;
+    }
+
+    .reason-left{
+        flex-basis: 100%;
+    }
+    .reason-right{
+        flex-basis: 100%;
+    }
+    .variance-flex{
+        display: flex;
+        flex-direction: column;
+    }
+    .variance-flex p{
+        width: 100%;
+    }
+    .variance-flex h3{
+        margin-left: 0;       
+    }
+}
