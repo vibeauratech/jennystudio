@@ -398,8 +398,13 @@
         background: #fff;
         z-index: 99;
     }
+    .common-right h2{
+        font-size: 20px;
+    }
+
     .common-sec h2{
-        width: 100%;
+        width: 80%;
+        font-size: 20PX;
         margin-top: 10%;
         margin-bottom: 3%;
     }
