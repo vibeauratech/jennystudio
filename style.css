@@ -63,7 +63,7 @@
     color: #fff;
 }
 
-.menu{
+.menu i{
     display: none;
 }
 
@@ -231,10 +231,11 @@
         display: none;
     }
 
-    .menu{
+    .menu i{
         display: block;
         color: #fff;
         z-index: 9999;
+        padding-right: 2px;
     }
     .right-nav{
         display: none;
