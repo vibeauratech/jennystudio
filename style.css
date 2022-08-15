@@ -454,6 +454,7 @@
     } 
     .manage-left{
         flex-basis: 100%;
+        padding-top: 15%;
     }
     .manage-left img{
         width: 100%;
