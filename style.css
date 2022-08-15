@@ -205,7 +205,7 @@
 }
 
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1200px){
     .hero{
         flex-direction: column;
         text-align: left;    
