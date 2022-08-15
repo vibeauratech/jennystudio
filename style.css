@@ -68,9 +68,6 @@
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
 }
 
-.hero-con .hero-left .ris{
-    margin-top: 5%;
-}
 
 .hero-con .hero-left .heroleft-text .real{
     flex-basis: 50%;
@@ -122,9 +119,6 @@
     cursor: pointer;
 }
 
-
-
-
 .hero-con .hero-right{
     position: relative;
     flex-basis: 40%;
@@ -171,6 +165,7 @@
     align-items: center;
     margin-left: 10%;
 }
+
 .heroright-text .culture p{
     margin-right: 100%;
     border-bottom: 2px solid #ccc;
@@ -221,6 +216,9 @@
     .hero-right{
         flex-basis: 100%;
     }
+    .hero-con .hero-left .heroleft-text .real{
+        flex-basis: 100%;
+    }
     .left-nav{       
         margin-bottom: 15%;
     }
@@ -243,12 +241,38 @@
         display: none;
     }
 
+    .hero-con .hero-left .heroleft-text .culture-left{
+        flex-basis: 100%;
+        display: flex;
+        margin-top: 2%;
+        padding-bottom: 5%;
+        align-items: center;
+    }
+    .hero-con .hero-left .heroleft-text .culture-left p{
+        margin-right: 40%;
+        border-bottom: 2px solid #ccc;
+    }
+    .hero-con .hero-left .heroleft-text .culture-left .number{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0;
+    }
+
     .hero-con .hero-left .heroleft-text .icon-left i{
         color:  #ccc;
         border: 2px solid #ccc;
         cursor: pointer;
     }
-    
+
+    .heroright-text {
+        padding-top: 5%;
+    }
+
+    .heroright-text .culture .number{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0;
+    }
 
 } 
 
