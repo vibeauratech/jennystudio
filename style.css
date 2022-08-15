@@ -486,6 +486,7 @@
     .service{
         background: rgb(209, 209, 209);
         margin-top: -7px;
+        padding-top: 15%;
     }
     .service-con h3{
         font-size: 20px;
@@ -546,7 +547,8 @@
 
 @media only screen and (max-width:1024px){
     .row-con{
-        flex-direction: column;      
+        flex-direction: column;  
+        padding-top: 15%;    
     }
     .flex-row{
         flex-basis: 100%;
@@ -562,4 +564,65 @@
     }
 }
 
+.special{
+    background: rgb(209, 209, 209);
+}
+
+.special-row{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.special-left{
+    flex-basis: 30%;
+}
+.special-left{
+    flex-basis: 30%;
+}
+.special-right{
+    flex-basis: 70%;
+    background: #03113F;
+    color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.special-right h2{
+    text-align: right;
+}
+.special-right i{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    color: rgb(5, 165, 98);
+}
+
+@media only screen and (max-width:768px){
+    .special-row{
+       flex-direction: column;
+       padding-top: 15%;
+    }
+    .special-right{
+        flex-basis: 100%;
+        justify-content: space-around;
+        align-items: center;
+        padding: 20px 10px;
+    }
+    .special-right h2{
+        text-align: left;
+        font-size: 20px;
+    }
+    .special-right i{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+      
+    }
+}
 
