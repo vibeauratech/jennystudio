@@ -63,6 +63,10 @@
     color: #fff;
 }
 
+.menu{
+    display: none;
+}
+
 .hero-con .hero-left .heroleft-text{
     display: flex;
     background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75))
@@ -225,6 +229,12 @@
 
     .nav-links{
         display: none;
+    }
+
+    .menu{
+        display: block;
+        color: #fff;
+        z-index: 9999;
     }
     .right-nav{
         display: none;
