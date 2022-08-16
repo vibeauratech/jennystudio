@@ -426,7 +426,7 @@
         
     }
     .type li:hover .sub-menu{
-        display: block;
+        display: none;
         position: absolute;
         background: #03113F;
         margin-top: 15px;
