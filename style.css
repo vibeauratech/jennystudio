@@ -329,11 +329,11 @@
 }
 .type li:hover{
     padding: 22px 0px;
-    padding-right: 35px;
-    
+    padding-right: 35px;   
     background: #03113F;
     color: #fff;
 }
+
 .type li .sub-menu li:hover{
     padding:0;   
 }
@@ -414,6 +414,12 @@
     .buyout-center div:last-child{
         margin-bottom: 0;
     }   
+    .type li:hover{
+        padding: 0;
+        padding-right: 0;   
+        background: transparent;
+        color: #000;
+    }
 
 }
 
