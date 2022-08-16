@@ -427,9 +427,8 @@
         background: #03113F;
         margin-top: 15px;
         margin-left: 0;
-        line-height: 5;
+        line-height: 3;
         padding: 0 1.5rem;
-        padding-right: 2.5rem;
         z-index: 99999999;   
     }
 
