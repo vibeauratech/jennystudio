@@ -421,6 +421,17 @@
         background: transparent;
         color: #000;
     }
+    .type li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background: #03113F;
+        margin-top: 15px;
+        margin-left: 0;
+        line-height: 5;
+        padding: 0 1.5rem;
+        padding-right: 2.5rem;
+        z-index: 99999999;   
+    }
 
 }
 
