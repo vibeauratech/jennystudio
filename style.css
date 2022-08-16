@@ -325,7 +325,46 @@
 .glass i{
     background: #03113F;
     color: #fff;
-    padding: 22px 48px;
+    padding: 20px 48px;
+}
+
+.type li{
+    list-style: none;
+}
+.type li:hover{
+    padding: 22px 45px;
+    background: #03113F;
+    color: #fff;
+}
+
+.sub-menu{
+    display: none;
+}
+
+.type li .sub-menu li{
+    font-size: 13px;
+    color: #fff;
+    border-bottom: 2px solid rgb(109, 109, 109);
+}
+.type li .sub-menu li:last-child{   
+    border-bottom: none;
+}
+
+.type li .sub-menu li:hover{
+    font-weight: 700;
+}
+
+.type li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background: #03113F;
+    margin-top: 15px;
+    margin-left: 0;
+    line-height: 5;
+    padding: 0 1.5rem;
+    padding-right: 6.5rem;
+    z-index: 99999999;
+    
 }
 
 
