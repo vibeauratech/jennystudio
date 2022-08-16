@@ -233,6 +233,9 @@
     .nav-links{
         display: none;
     }
+    .menu{
+        display: block;
+    }
 
     .menu i{
         display: block;
