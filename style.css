@@ -416,7 +416,8 @@
     }   
     .type li:hover{
         padding: 0;
-        padding-right: 0;   
+        padding-right: 0;  
+        margin-bottom: 50%; 
         background: transparent;
         color: #000;
     }
