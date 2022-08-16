@@ -421,6 +421,10 @@
         background: transparent;
         color: #000;
     }
+    .type li:hover:last-child{        
+        margin-bottom: 0; 
+        
+    }
     .type li:hover .sub-menu{
         display: block;
         position: absolute;
