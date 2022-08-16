@@ -345,9 +345,11 @@
     .buyout-center div{
         width: 100%;
         margin-bottom: 10px;
+        padding-left: 5%;
     }
-   
-    
+    .buyout-center div:last-child{
+        margin-bottom: 0;
+    }   
 
 }
 
