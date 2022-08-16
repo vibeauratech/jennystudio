@@ -287,6 +287,71 @@
 
 } 
 
+.buy-out{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    z-index: 999;
+}
+.buyout-left{
+    flex-basis:10% ;
+    background: #fff;
+}
+.buyout-left h2{
+    opacity: 0;
+}
+.buyout-center{
+    flex-basis:62% ;
+    z-index: 9999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ccc;
+}
+
+.buyout-right{
+    flex-basis:28% ;
+    background: transparent;
+}
+
+
+.buyout-right i{
+    opacity: 0;
+}
+.buyout-right h2{
+    opacity: 0;
+}
+
+.glass i{
+    background: #03113F;
+    color: #fff;
+    padding: 22px 48px;
+}
+
+
+@media only screen and (max-width:768px){
+    .buy-out{
+        flex-direction: column;
+        margin-top: 5px;
+        padding: 40px;
+    }
+    
+    .buyout-center{
+        flex-basis: 100%;
+        background: #ccc;
+        flex-direction: column;
+    }
+
+    .buyout-center div{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+   
+    
+
+}
+
+
 
 
 
@@ -313,6 +378,9 @@
     padding-right: 25%;
     border-right: 2px solid #ccc;
 }
+
+
+
 
 .deals{
     width: 80%;
